@@ -161,3 +161,4 @@ Todo el contenido está centralizado en `/data/site-data.json` para facilitar ac
 
 **Diseñado y desarrollado con pedagogía, accesibilidad y diseño en mente.**
 
+# Updated
