@@ -1,0 +1,69 @@
+<!-- 
+  INSTRUCCIONES PARA INTEGRAR GOOGLE ANALYTICS CON MODO DE CONSENTIMIENTO
+  
+  Este archivo debe ir en el <head> de tu index.html
+  
+  PASO 1: Reemplaza "G-XXXXXXXXXX" con tu ID de medición de Google Analytics
+  PASO 2: Copia el código de abajo en el <head> de tu index.html, ANTES de cargar React
+-->
+
+<!-- Google tag (gtag.js) with Consent Mode v2 -->
+<script>
+  // Initialize dataLayer and gtag
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  
+  // Set default consent to 'denied' as a placeholder
+  // Actual consent will be updated by the ConsentProvider when user makes a choice
+  gtag('consent', 'default', {
+    'analytics_storage': 'denied',
+    'ad_storage': 'denied',
+    'ad_user_data': 'denied',
+    'ad_personalization': 'denied',
+    'functionality_storage': 'denied',
+    'personalization_storage': 'denied',
+    'security_storage': 'granted'
+  });
+  
+  // Initialize Google Analytics
+  gtag('js', new Date());
+  gtag('config', 'G-XXXXXXXXXX', {
+    'anonymize_ip': true,
+    'cookie_flags': 'SameSite=None;Secure'
+  });
+</script>
+
+<!-- Load Google Analytics script -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+
+<!-- 
+  IMPORTANTE:
+  
+  1. El banner de consentimiento está configurado para:
+     - Aparecer automáticamente cuando el usuario visita por primera vez
+     - Guardar las preferencias en localStorage
+     - Actualizar el modo de consentimiento de Google usando gtag('consent', 'update', {...})
+  
+  2. El usuario puede:
+     - Aceptar todas las cookies
+     - Rechazar (solo cookies necesarias)
+     - Personalizar (elegir qué cookies aceptar)
+     - Cambiar sus preferencias en cualquier momento desde el footer
+  
+  3. Las categorías de cookies son:
+     - Necesarias: Siempre activas (seguridad, sesión)
+     - Análisis: Google Analytics (analytics_storage)
+     - Marketing: Publicidad (ad_storage, ad_user_data, ad_personalization)
+     - Preferencias: Idioma, tema (functionality_storage, personalization_storage)
+  
+  4. El sistema cumple con:
+     - GDPR (Europa)
+     - CCPA (California)
+     - Google Consent Mode v2
+     - WCAG 2.2 AA (accesibilidad)
+  
+  5. Para verificar que funciona:
+     - Abre DevTools > Application > Cookies
+     - Verifica que las cookies de Google Analytics solo se crean después del consentimiento
+     - Verifica en DevTools > Network que gtag se llama con 'consent' 'update'
+-->

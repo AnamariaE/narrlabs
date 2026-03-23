@@ -1,0 +1,120 @@
+╔═══════════════════════════════════════════════════════════════════════════════╗
+║                    CÓDIGO PARA GOOGLE ANALYTICS                                ║
+║                    Con Google Consent Mode v2 Integrado                        ║
+╚═══════════════════════════════════════════════════════════════════════════════╝
+
+PASO 1: Reemplaza "G-XXXXXXXXXX" con tu ID de medición real
+
+PASO 2: Copia TODO el código de abajo y pégalo en tu index.html
+        justo ANTES de cerrar la etiqueta </head>
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+<!-- Google tag (gtag.js) with Consent Mode v2 -->
+<script>
+  // Initialize dataLayer and gtag
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  
+  // Set default consent to 'denied' as a placeholder
+  // The ConsentProvider will update this when user makes a choice
+  gtag('consent', 'default', {
+    'analytics_storage': 'denied',
+    'ad_storage': 'denied',
+    'ad_user_data': 'denied',
+    'ad_personalization': 'denied',
+    'functionality_storage': 'denied',
+    'personalization_storage': 'denied',
+    'security_storage': 'granted'
+  });
+  
+  // Initialize Google Analytics
+  gtag('js', new Date());
+  gtag('config', 'G-XXXXXXXXXX', {
+    'anonymize_ip': true,
+    'cookie_flags': 'SameSite=None;Secure'
+  });
+</script>
+
+<!-- Load Google Analytics script -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+⚠️  IMPORTANTE: Reemplaza AMBAS instancias de "G-XXXXXXXXXX" con tu ID real
+
+Ejemplo: Si tu ID es "G-ABC123XYZ", el código quedaría:
+  gtag('config', 'G-ABC123XYZ', { ... });
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-ABC123XYZ"></script>
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+¿Cómo obtener tu ID de Google Analytics?
+
+1. Ve a https://analytics.google.com/
+2. Haz clic en "Administrar" (⚙️ icono de engranaje abajo a la izquierda)
+3. En la columna "Propiedad", haz clic en "Flujos de datos"
+4. Haz clic en tu flujo de datos web
+5. Verás "ID DE MEDICIÓN" en la parte superior derecha
+6. Copia ese código (formato: G-XXXXXXXXXX)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Estructura completa del index.html:
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NarrLab</title>
+  
+  <!-- Google Analytics con Consent Mode v2 - PEGAR AQUÍ ↓ -->
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('consent', 'default', {
+      'analytics_storage': 'denied',
+      'ad_storage': 'denied',
+      'ad_user_data': 'denied',
+      'ad_personalization': 'denied',
+      'functionality_storage': 'denied',
+      'personalization_storage': 'denied',
+      'security_storage': 'granted'
+    });
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXXXX', {
+      'anonymize_ip': true,
+      'cookie_flags': 'SameSite=None;Secure'
+    });
+  </script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <!-- Google Analytics - FIN -->
+  
+</head>
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.tsx"></script>
+</body>
+</html>
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+✅ ¿Qué hace este código?
+
+1. Inicializa Google Analytics con TODOS los consentimientos en "denied"
+2. Solo activará las cookies cuando el usuario haga clic en "Aceptar"
+3. El banner de consentimiento se encarga de actualizar automáticamente
+4. Cumple con GDPR, CCPA y Google Consent Mode v2
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+¿Cómo verificar que funciona?
+
+1. Despliega tu sitio con el código añadido
+2. Abre en modo incógnito
+3. Abre DevTools (F12) → Pestaña "Network"
+4. Verás llamadas a "gtag" cuando aceptes las cookies
+5. Ve a "Application" → "Cookies" para ver las cookies creadas
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━

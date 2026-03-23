@@ -1,0 +1,55 @@
+{
+  "name": "NarrLab Studio — Diseño de Experiencias Pedagógicas",
+  "short_name": "NarrLab",
+  "description": "Portfolio y estudio de diseño instruccional, gamificación y experiencias de aprendizaje. Anamaría Espinoza — Learning Experience Designer.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F2BF80",
+  "theme_color": "#D95032",
+  "orientation": "portrait-primary",
+  "lang": "es",
+  "dir": "ltr",
+  "scope": "/",
+  "categories": ["education", "design", "portfolio", "business"],
+  "icons": [
+    {
+      "src": "https://narrlab.studio/img/isotipo-narralab.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://narrlab.studio/img/isotipo-narralab.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshot-desktop.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "platform": "wide",
+      "label": "NarrLab Studio homepage desktop view"
+    },
+    {
+      "src": "/screenshot-mobile.png",
+      "sizes": "640x1136",
+      "type": "image/png",
+      "platform": "narrow",
+      "label": "NarrLab Studio homepage mobile view"
+    }
+  ],
+  "share_target": {
+    "action": "/contact",
+    "method": "GET",
+    "params": {
+      "title": "title",
+      "text": "text",
+      "url": "url"
+    }
+  },
+  "related_applications": [],
+  "prefer_related_applications": false
+}

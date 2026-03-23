@@ -1,0 +1,83 @@
+# robots.txt para NarrLab Studio + Anamaría Espinoza Portfolio
+# https://narrlab.studio
+
+# Permitir a todos los buscadores indexar el contenido público
+User-agent: *
+Allow: /
+
+# Bloquear archivos de sistema y documentación interna
+Disallow: /src/
+Disallow: /components/
+Disallow: /lib/
+Disallow: /data/
+Disallow: /pages/
+Disallow: /imports/
+Disallow: /styles/
+Disallow: /*.md$
+Disallow: /*.txt$
+Disallow: /*.json$
+Disallow: /*.ts$
+Disallow: /*.tsx$
+
+# Permitir acceso a assets públicos
+Allow: /assets/
+Allow: /public/
+Allow: /*.jpg$
+Allow: /*.jpeg$
+Allow: /*.png$
+Allow: /*.gif$
+Allow: /*.svg$
+Allow: /*.webp$
+Allow: /*.pdf$
+
+# Bloquear archivos de configuración
+Disallow: /package.json
+Disallow: /tsconfig.json
+Disallow: /.env
+Disallow: /.git/
+
+# Páginas importantes para indexar (hint para crawlers)
+# Modo Studio (NarrLab)
+Allow: /portfolio
+Allow: /consulting
+Allow: /gamification
+Allow: /why-narrlab
+Allow: /contact
+Allow: /studio
+
+# Modo Personal (Anamaría)
+Allow: /about
+Allow: /cv
+Allow: /podcast
+
+# Proyectos individuales
+Allow: /project/*
+
+# Sitemap (crear este archivo después)
+Sitemap: https://narrlab.studio/sitemap.xml
+
+# Crawl-delay para ser respetuosos con el servidor
+Crawl-delay: 1
+
+# Configuración específica para Google
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+# Configuración específica para Bing
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 0
+
+# Bloquear bots de scraping agresivos (opcional)
+User-agent: AhrefsBot
+Crawl-delay: 10
+
+User-agent: SemrushBot
+Crawl-delay: 10
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /

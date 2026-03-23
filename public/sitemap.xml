@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <!-- Página principal / Home -->
+  <url>
+    <loc>https://narrlab.studio/</loc>
+    <lastmod>2025-03-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://narrlab.studio/?lang=es"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://narrlab.studio/?lang=en"/>
+  </url>
+
+  <!-- Portfolio -->
+  <url>
+    <loc>https://narrlab.studio/portfolio</loc>
+    <lastmod>2025-03-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://narrlab.studio/portfolio?lang=es"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://narrlab.studio/portfolio?lang=en"/>
+  </url>
+
+  <!-- Studio / About NarrLab -->
+  <url>
+    <loc>https://narrlab.studio/studio</loc>
+    <lastmod>2025-03-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://narrlab.studio/studio?lang=es"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://narrlab.studio/studio?lang=en"/>
+  </url>
+
+  <!-- Why NarrLab -->
+  <url>
+    <loc>https://narrlab.studio/why-narrlab</loc>
+    <lastmod>2025-03-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://narrlab.studio/why-narrlab?lang=es"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://narrlab.studio/why-narrlab?lang=en"/>
+  </url>
+
+  <!-- Consulting Services -->
+  <url>
+    <loc>https://narrlab.studio/consulting</loc>
+    <lastmod>2025-03-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://narrlab.studio/consulting?lang=es"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://narrlab.studio/consulting?lang=en"/>
+  </url>
+
+  <!-- Gamification -->
+  <url>
+    <loc>https://narrlab.studio/gamification</loc>
+    <lastmod>2025-03-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://narrlab.studio/gamification?lang=es"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://narrlab.studio/gamification?lang=en"/>
+  </url>
+
+  <!-- Contact -->
+  <url>
+    <loc>https://narrlab.studio/contact</loc>
+    <lastmod>2025-03-19</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://narrlab.studio/contact?lang=es"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://narrlab.studio/contact?lang=en"/>
+  </url>
+
+  <!-- About (Personal - Anamaría) -->
+  <url>
+    <loc>https://narrlab.studio/about</loc>
+    <lastmod>2025-03-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://narrlab.studio/about?lang=es"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://narrlab.studio/about?lang=en"/>
+  </url>
+
+  <!-- CV -->
+  <url>
+    <loc>https://narrlab.studio/cv</loc>
+    <lastmod>2025-03-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://narrlab.studio/cv?lang=es"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://narrlab.studio/cv?lang=en"/>
+  </url>
+
+  <!-- Podcast -->
+  <url>
+    <loc>https://narrlab.studio/podcast</loc>
+    <lastmod>2025-03-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://narrlab.studio/podcast?lang=es"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://narrlab.studio/podcast?lang=en"/>
+  </url>
+
+  <!-- Humanidades Digitales -->
+  <url>
+    <loc>https://narrlab.studio/humanidades-digitales</loc>
+    <lastmod>2025-03-19</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://narrlab.studio/humanidades-digitales?lang=es"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://narrlab.studio/humanidades-digitales?lang=en"/>
+  </url>
+
+  <!-- PROYECTOS INDIVIDUALES -->
+  
+  <!-- Toteramy - Café -->
+  <url>
+    <loc>https://narrlab.studio/project/toteramy-identidad-marca-cafe</loc>
+    <lastmod>2025-03-19</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://narrlab.studio/project/toteramy-identidad-marca-cafe?lang=es"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://narrlab.studio/project/toteramy-identidad-marca-cafe?lang=en"/>
+  </url>
+
+  <!-- Profesora Neón - Podcast -->
+  <url>
+    <loc>https://narrlab.studio/project/profe-neon-podcast</loc>
+    <lastmod>2025-03-19</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://narrlab.studio/project/profe-neon-podcast?lang=es"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://narrlab.studio/project/profe-neon-podcast?lang=en"/>
+  </url>
+
+  <!-- GAAP - CRS -->
+  <url>
+    <loc>https://narrlab.studio/project/gaap-crs-asa-emprende</loc>
+    <lastmod>2025-03-19</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://narrlab.studio/project/gaap-crs-asa-emprende?lang=es"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://narrlab.studio/project/gaap-crs-asa-emprende?lang=en"/>
+  </url>
+
+  <!-- Wikimedia Learning Plataform -->
+  <url>
+    <loc>https://narrlab.studio/project/wikimedia-learning-platform</loc>
+    <lastmod>2025-03-19</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://narrlab.studio/project/wikimedia-learning-platform?lang=es"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://narrlab.studio/project/wikimedia-learning-platform?lang=en"/>
+  </url>
+
+  <!-- Wikimedia Audiovisual Portal -->
+  <url>
+    <loc>https://narrlab.studio/project/wikimedia-audiovisual-portal</loc>
+    <lastmod>2025-03-19</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://narrlab.studio/project/wikimedia-audiovisual-portal?lang=es"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://narrlab.studio/project/wikimedia-audiovisual-portal?lang=en"/>
+  </url>
+
+  <!-- UCA Brand Identity -->
+  <url>
+    <loc>https://narrlab.studio/project/uca-brand-identity</loc>
+    <lastmod>2025-03-19</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://narrlab.studio/project/uca-brand-identity?lang=es"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://narrlab.studio/project/uca-brand-identity?lang=en"/>
+  </url>
+
+  <!-- Credicampo Microfinance -->
+  <url>
+    <loc>https://narrlab.studio/project/credicampo-microfinance</loc>
+    <lastmod>2025-03-19</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://narrlab.studio/project/credicampo-microfinance?lang=es"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://narrlab.studio/project/credicampo-microfinance?lang=en"/>
+  </url>
+
+  <!-- Más proyectos se pueden agregar aquí según sea necesario -->
+
+</urlset>
